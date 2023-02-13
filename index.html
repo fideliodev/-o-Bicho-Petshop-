@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>É o Bicho-Petshop | inicio</title>
+    <link rel="stylesheet" href="src/style/estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="src/style/img/logo.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header class="barra-nav">
+      <a href="index.html"
+        ><img width="106%" src="src/style/img/logo.png" alt="logo"
+      /></a>
+      <div class="barra-nav-grupos">
+        <a class="grupos" href="adotar.html">Adotar</a>
+        <a class="grupos" href="adotar.html">Contato</a>
+        <a class="grupos" href="adotar.html">Sobre</a>
+      </div>
+    </header>
+
+    <header class="barra-nav-animais">
+      <div class="barra-nav-grupos">
+        <a class="grupos2" href="#">
+          <img
+            onclick="catSound()"
+            width="20px"
+            src="src/style/img/cat-solid.svg"
+            alt="cat"
+          />
+        </a>
+        <a class="grupos2" href="#"
+          ><img
+            onclick="dogSound()"
+            width="20px"
+            src="src/style/img/dog-solid.svg"
+            alt="dog"
+          />
+        </a>
+        <a class="grupos2" href="#"
+          ><img
+            onclick="birdSound()"
+            width="20px"
+            src="src/style/img/crow-solid.svg"
+            alt="bird"
+        /></a>
+      </div>
+    </header>
+    <div class="img-anuncio">
+      <img
+        width="100%"
+        src="https://images.tcdn.com.br/img/img_prod/496822/1668694513_frete_grtis_para_sul_e_sudeste.jpg"
+        alt="https://images.tcdn.com.br/img/img_prod/496822/1668694513_frete_grtis_para_sul_e_sudeste.jpg   "
+      />
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <button title="Clique aqui para fechar" class="fechar-pop">X</button>
+        <h1>Adicione seu email para receber ofertas!</h1>
+        <p>Adicione corretamente seu email para receber descontos de até 40%</p>
+
+        <form class="form-email">
+          <label>* Seu email</label>
+          <br />
+          <input
+            type="email"
+            class="email verificar"
+            placeholder="email@email.com"
+          />
+          <button class="submit-email">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <h1 class="texto-sobre-produtos">Promoções de até 86%</h1>
+
+    <div class="toast">Ocorreu um erro</div>
+
+    <div class="produtos-da-loja">
+      <div class="produtos">
+        <div class="imagem-produto">
+          <img
+            src="https://images.tcdn.com.br/img/img_prod/496822/180_sarniran_pet_30_ml_11701_1_20190612205637.png"
+            alt="sarninan"
+          />
+        </div>
+        <div class="sobre-o-produto">
+          <h3>
+            <a href="#" title="Sarniran Pet Biofarm 30 Ml" class="nome-produto"
+              >Sarniran Pet Biofarm 30 Ml</a
+            >
+          </h3>
+
+          <span>para sarnas em cães.</span>
+        </div>
+        <div class="preco-produto">
+          <span>R$7,89</span>
+        </div>
+        <div class="botao-de-compra">
+          <button class="botao-compra">Comprar</button>
+        </div>
+      </div>
+      <div class="produtos">
+        <div class="imagem-produto">
+          <img
+            src="https://images.tcdn.com.br/img/img_prod/496822/180_viveiro_mini_teto_reto_papagaio_vp021_57x37x100_12119_1_20190628190243.jpg"
+            alt="viveiero"
+          />
+        </div>
+        <div class="sobre-o-produto">
+          <h3>
+            <a
+              href="#"
+              title="Viveiro Mini Teto Reto Papagaio Vp021( 65 X40 X 100 CM )  Bragança Pet"
+              class="nome-produto"
+              >Viveiro Papagaio</a
+            >
+          </h3>
+
+          <span>para pásssaros.</span>
+        </div>
+        <div class="preco-produto">
+          <span>R$540,99</span>
+        </div>
+        <div class="botao-de-compra">
+          <button class="botao-compra">Comprar</button>
+        </div>
+      </div>
+      <div class="produtos">
+        <div class="imagem-produto">
+          <img
+            src="https://images.tcdn.com.br/img/img_prod/496822/180_chemital_gatos_c_4_comprimidos_11767_1_20190615222426.jpg"
+            alt="gatovermifuco"
+          />
+        </div>
+        <div class="sobre-o-produto">
+          <h3>
+            <a
+              href="#"
+              title="Vermífugo Chemital Gatos Comprimidos Chemitec"
+              class="nome-produto"
+              >Vermífugo para Gatos</a
+            >
+          </h3>
+
+          <span>para gatos.</span>
+        </div>
+        <div class="preco-produto">
+          <span>R$4,90</span>
+        </div>
+        <div class="botao-de-compra">
+          <button class="botao-compra">Comprar</button>
+        </div>
+      </div>
+      <div class="produtos">
+        <div class="imagem-produto">
+          <img
+            src="https://images.tcdn.com.br/img/img_prod/496822/180_otovet_limp_100_ml_11671_1_20190612205850.png"
+            alt="higienizador"
+          />
+        </div>
+        <div class="sobre-o-produto">
+          <h3>
+            <a
+              href="#"
+              title="Otovet Limp 100ml Biofarm Higienizador Auricular"
+              class="nome-produto"
+              >Higienizador Auricular</a
+            >
+          </h3>
+
+          <span>para cães/gatos.</span>
+        </div>
+        <div class="preco-produto">
+          <span>R$10,90</span>
+        </div>
+        <div class="botao-de-compra">
+          <button class="botao-compra">Comprar</button>
+        </div>
+      </div>
+      <div class="produtos">
+        <div class="imagem-produto">
+          <img
+            src="https://images.tcdn.com.br/img/img_prod/496822/180_fonte_gato_duracats_bivolts_2_5_lts_laranja_12653_1_20190708211653.jpg"
+            alt="fontes"
+          />
+        </div>
+        <div class="sobre-o-produto">
+          <h3>
+            <a
+              href="#"
+              title="Fonte Cães e Gatos Bivolts 2,5 Lts Laranja"
+              class="nome-produto"
+              >Fonte Cães e Gatos
+            </a>
+          </h3>
+
+          <span>para cães/gatos.</span>
+        </div>
+        <div class="preco-produto">
+          <span>R$99,90</span>
+        </div>
+        <div class="botao-de-compra">
+          <button class="botao-compra">Comprar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/app js/app.js"></script>
+  </body>
+</html>
